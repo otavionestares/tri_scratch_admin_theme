@@ -1,9 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400, 700);
 
 body {
   color: $black;
   background: $background;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 body.rails_admin .form-horizontal textarea {
@@ -24,7 +24,7 @@ body.rails_admin .sidebar-nav .dropdown-header {
     position: absolute;
     right: 15px;
     color: #fff;
-    font-family: 'FontAwesome', sans-serif;
+    font-family: "FontAwesome", sans-serif;
   }
 }
 
@@ -59,14 +59,14 @@ body.rails_admin .sidebar-nav > .nav-stacked > li > a {
 
     &:nth-child(1) {
       a {
-        background: #29B6F6;
+        background: #fff;
         color: #fff;
       }
     }
 
     &:nth-child(2) {
       a {
-        background: #66BB6A;
+        background: #66bb6a;
         color: #fff;
       }
     }
@@ -180,7 +180,7 @@ body.rails_admin .sidebar-nav > .nav-stacked > li > a {
     position: absolute;
     right: 15px;
     color: #fff;
-    font-family: 'FontAwesome', sans-serif;
+    font-family: "FontAwesome", sans-serif;
   }
 }
 
@@ -253,7 +253,6 @@ a.navbar-brand {
 .root_links {
   .dashboard_root_link,
   .edit_user_root_link,
-
   li {
     .label-danger {
       padding: 5px 10px;
@@ -288,7 +287,7 @@ a.navbar-brand {
   background: darken($primary, 5%);
 
   li a {
-    color: #EEE;
+    color: #eee;
 
     &:hover {
       color: $secondary !important;
@@ -357,7 +356,7 @@ body.rails_admin .table td {
 }
 
 .row-highlight td {
-  background: rgba($secondary, .1) !important;
+  background: rgba($secondary, 0.1) !important;
 }
 
 .table-condensed > tbody > tr > td,
@@ -384,11 +383,11 @@ td.carrierwave_type .img-thumbnail {
 
 .img-thumbnail {
   max-width: 125px;
-  background: #EEE;
+  background: #eee;
 }
 
 .breadcrumb .false a {
-  color: #C4C4C4 !important;
+  color: #c4c4c4 !important;
 }
 
 .breadcrumb {
@@ -432,8 +431,8 @@ td.carrierwave_type .img-thumbnail {
 }
 
 .dd3-content .pull-right a {
-  background: none!important;
-  color: #000!important;
+  background: none !important;
+  color: #000 !important;
 }
 
 .dd3-content {
@@ -513,7 +512,7 @@ td.carrierwave_type .img-thumbnail {
 
 #edit_page {
   .has_one_association_type {
-    background: #F3F1F1;
+    background: #f3f1f1;
     margin: 25px 15px !important;
   }
 }
